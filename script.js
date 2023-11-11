@@ -4,9 +4,9 @@ const quoteTiga = document.querySelector(".quoteTiga");
 const line = document.querySelector(".line");
 const author = document.querySelector(".author");
 let index = 0;
-const stringSatu = "Orang-orang yang masih setia disaat kau terjatuh,";
-const stringDua = "Itulah orang yang paling berharga.";
-//const stringTiga = "Jika kamu dimusuhi, berarti kamu adalah lawan yang tangguh.";
+const stringSatu = "Orang-orang yang masih setia disaat kita terjatuh,";
+const stringDua = "Itulah orang yang paling berharga,";
+const stringTiga = "Karena mereka mau menemani kita pada saat kita tidak berharga.";
 
 function animateText(string, element, callback) {
     element.style.display = 'block';
@@ -53,12 +53,12 @@ function xxx() {
 
 animateText(stringSatu, quoteSatu, function () {
     animateText(stringDua, quoteDua, function () {
-        //animateText(stringTiga, quoteTiga, function () {
+        animateText(stringTiga, quoteTiga, function () {
             tampil2(function () {
                 tampil3(function () {
                     xxx();
                 });
             });
-        //});
+        });
     });
 });
