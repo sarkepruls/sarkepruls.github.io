@@ -36,19 +36,19 @@ function tampil3(callback) {
 
 function xxx() {
     quoteSatu.style.opacity = '0';
-    quoteSatu.style.transition = '10s ease-out';
+    quoteSatu.style.transition = '15s ease-out';
 
     quoteDua.style.opacity = '0';
-    quoteDua.style.transition = '10s ease-out';
+    quoteDua.style.transition = '15s ease-out';
 
     quoteTiga.style.opacity = '0';
-    quoteTiga.style.transition = '10s ease-out';
+    quoteTiga.style.transition = '15s ease-out';
 
     line.style.opacity = '0';
-    line.style.transition = '10s ease-out';
+    line.style.transition = '15s ease-out';
 
     author.style.opacity = '0';
-    author.style.transition = '10s ease-out';
+    author.style.transition = '15s ease-out';
 }
 
 animateText(stringSatu, quoteSatu, function () {
