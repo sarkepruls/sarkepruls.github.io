@@ -4,9 +4,9 @@ const quoteTiga = document.querySelector(".quoteTiga");
 const line = document.querySelector(".line");
 const author = document.querySelector(".author");
 let index = 0;
-const stringSatu = "Jika kamu digosipkan, berarti kamu populer.";
-const stringDua = "Jika kamu direndahkan, berarti kamu lebih tinggi.";
-const stringTiga = "Jika kamu dimusuhi, berarti kamu adalah lawan yang tangguh.";
+const stringSatu = "Orang-orang yang masih setia disaat kau terjatuh,";
+const stringDua = "Itulah orang yang paling berharga.";
+//const stringTiga = "Jika kamu dimusuhi, berarti kamu adalah lawan yang tangguh.";
 
 function animateText(string, element, callback) {
     element.style.display = 'block';
@@ -53,12 +53,12 @@ function xxx() {
 
 animateText(stringSatu, quoteSatu, function () {
     animateText(stringDua, quoteDua, function () {
-        animateText(stringTiga, quoteTiga, function () {
+        //animateText(stringTiga, quoteTiga, function () {
             tampil2(function () {
                 tampil3(function () {
                     xxx();
                 });
             });
-        });
+        //});
     });
 });
