@@ -7,7 +7,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  list-style: none;
   -webkit-tap-highlight-color: transparent !important;
   user-select: none;
 }
@@ -33,14 +32,7 @@ body{
   background: whitesmoke;
   color: #333;
 }
-h2{
-  font-size: 28px;
-}
-h3{
-  font-size: 24px;
-}
 img{
-  display: block;
   width: 100%;
   height: 100%;
   user-select: none;
@@ -162,6 +154,25 @@ footer{
 /* ------------------------- header ------------------------- */
 
 /* ------------------------- main ------------------------- */
+.main .article > *:not(:last-child){
+  margin-bottom: 20px;
+}
+.main .article h1{
+  font-size: 32px;
+  line-height: 40px;
+  color: navy;
+  text-shadow: 0 0 8px #555;
+}
+.main .article img{
+  display: block;
+  margin: auto;
+}
+.main .article ul{
+  list-style-position: inside!important;
+}
+.main .article ul li:not(:last-child){
+  margin-bottom: 16px;
+}
 
 /* ------------------------- footer ------------------------- */
 .footer p{
