@@ -8,6 +8,7 @@
   text-decoration: none;
   -webkit-tap-highlight-color: transparent !important;
   user-select: none;
+  letter-spacing: 2px;
 }
 :root{
   --gradient: linear-gradient(180deg, red, green);
@@ -175,6 +176,7 @@ footer{
 }
 .main .article ul{
   list-style-position: inside!important;
+  color: #555;
 }
 .main .article ul li:not(:last-child){
   margin-bottom: 16px;
