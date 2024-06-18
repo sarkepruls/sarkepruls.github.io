@@ -1,5 +1,5 @@
 *{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -160,7 +160,7 @@ footer{
   font-size: 32px;
   line-height: 40px;
   color: navy;
-  text-shadow: 0 0 8px #555;
+  text-shadow: 0 0 4px #555;
 }
 .main .article img{
   display: block;
@@ -179,7 +179,14 @@ footer{
 .main .article ul li:not(:last-child){
   margin-bottom: 16px;
 }
-
+/* responsive */
+@media screen and (max-width: 800px){
+}
+@media screen and (max-width: 500px){
+  .main .article h1{
+    text-align: center;
+  }  
+}
 /* ------------------------- footer ------------------------- */
 .footer p{
   text-align: center;
