@@ -1,4 +1,3 @@
-/* .container .box .content .item .detail */
 *{
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -166,6 +165,13 @@ footer{
 .main .article img{
   display: block;
   margin: auto;
+}
+.main .article a{
+  vertical-align: middle;
+  color: blue;
+}
+.main .article a:hover{
+  color: cyan;
 }
 .main .article ul{
   list-style-position: inside!important;
