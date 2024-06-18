@@ -169,10 +169,10 @@ footer{
 }
 .main .article a{
   vertical-align: middle;
-  color: blue;
+  color: dodgerblue;
 }
 .main .article a:hover{
-  color: cyan;
+  color: blue;
 }
 .main .article ul{
   list-style-position: inside!important;
