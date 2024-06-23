@@ -156,6 +156,7 @@ footer{
 /* ------------------------- main ------------------------- */
 .main .article > *:not(:last-child){
   margin-bottom: 20px;
+  display: block;
 }
 .main .article h1{
   font-size: 32px;
